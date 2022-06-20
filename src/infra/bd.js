@@ -1,3 +1,3 @@
-const bd = {
+export const bd = {
     "tips": []
 }
