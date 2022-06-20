@@ -1,6 +1,7 @@
-import { Tip } from "../models/create-models.js";
+import { Tip } from "../models/tips-models.js";
+import {bd} from "../infra/bd.js"
 
-const create = ()=>{
+export const create = (app)=>{
     app.post('/create', (req, res)=>{
         const body = req.body
         const newTip = new Tip(body.tip)
