@@ -1,4 +1,4 @@
-import { Tip } from "../models/tips-models.js";
+import { Tip } from "../models/create-models.js";
 import {bd} from "../infra/bd.js"
 
 export const create = (app)=>{
