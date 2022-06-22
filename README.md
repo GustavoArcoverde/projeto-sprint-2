@@ -16,8 +16,6 @@ A ideia era criar uma aplicação que ajudaria o dia a dia de devs que trabalham
 <h2 id="comousar">Como usar</h2>
 <p>A aplicação funciona da seguinte maneira:<p>
 <ul>
-
-<ol>1. Usando o método POST no caminho "localhost:3000/create", você poderá criar dicas de CSS e adicioná-las ao banco de dados (bd.js). 
-
-<ol> 2. Depois disso, usando o método GET no caminho "localhost:3000/tips" você receberá, de modo aleatório, alguma das dicas que você adicionou.
+<li>1. Usando o método POST no caminho "localhost:3000/create", você poderá criar dicas de CSS e adicioná-las ao banco de dados (bd.js). 
+<li> 2. Depois disso, usando o método GET no caminho "localhost:3000/tips" você receberá, de modo aleatório, alguma das dicas que você adicionou.
 </ul>
